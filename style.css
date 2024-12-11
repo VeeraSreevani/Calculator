@@ -1,0 +1,40 @@
+body{
+    background-color: lightyellow;
+   
+    
+}
+caption{
+    background-color:rgb(39, 234, 9);
+    border: 2px solid ;
+    border-style: dashed;
+    margin-bottom: 20px;
+
+}
+thead{
+    background-color:rgb(67, 199, 175);
+    /* margin-top: 1cd ..
+    0px; */
+}
+
+td,th{
+border: 4px solid rgb(242, 62, 12);
+
+
+}
+table{
+    /* border-collapse: collapse; */
+    max-width: 100%;
+    text-align: center;
+    table-layout: fixed;
+    border-radius: 2px;
+    border: 5px solid green
+
+}
+td:hover{
+    background-color: lightcoral;
+    color: azure;
+}
+th{
+    width: 250px;
+    text-align: right;
+}
