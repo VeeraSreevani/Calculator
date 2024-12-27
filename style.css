@@ -1,24 +1,38 @@
 body{
-    background-color: lightyellow;
+    background-color: whitesmoke;
+   border-left: 2cm;
    
     
 }
 caption{
-    background-color:rgb(39, 234, 9);
-    border: 2px solid ;
+    background-color:lightgreen;
+    border: 3px solid;
     border-style: dashed;
     margin-bottom: 20px;
+    border-radius: 10cm;
+    ;
 
 }
 thead{
-    background-color:rgb(67, 199, 175);
+    background-color:gray;
+    height: 50px;
+    margin-bottom: 20px;
+
+    /* border-radius:40cm; */
     /* margin-top: 1cd ..
     0px; */
 }
+/* th {
+    border: 2px solid pink;
+    background-color: lightgray;
+    border-radius: 10cm;
+    
+    } */
 
-td,th{
-border: 4px solid rgb(242, 62, 12);
-
+td {
+border: 2px solid gray;
+background-color: pink;
+border-radius: 30cm;
 
 }
 table{
@@ -26,8 +40,14 @@ table{
     max-width: 100%;
     text-align: center;
     table-layout: fixed;
-    border-radius: 2px;
-    border: 5px solid green
+    border-radius: 25px;
+    border: 8px solid pink ;
+    background-color: salmon;
+    height: 8cm;
+    /* padding-left: 1cqmax;
+    padding-top: 1cqmax; */
+    padding: 1cqmax;
+
 
 }
 td:hover{
@@ -37,4 +57,11 @@ td:hover{
 th{
     width: 250px;
     text-align: right;
+    border: 5px solid pink;
+    background-color: lightgray;
+    border-radius: 10cm;
+}
+tfoot{
+    height:1cm;
+   
 }
